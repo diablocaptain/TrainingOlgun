@@ -60,7 +60,7 @@ trigger CloneThatShit on Account (before update,before insert ) {
 
     insert tmpAccountList;
 
-
+//test
 
     for(Account tmpAccount2:tmpAccountList){
 
